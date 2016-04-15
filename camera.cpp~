@@ -83,7 +83,7 @@ CURL *curl;
   curl = curl_easy_init();
   if(curl) {
 
-    curl_easy_setopt(curl, CURLOPT_URL, "http://root:georgep@143.215.207.165/axis-cgi/mjpg/video.cgi?streamprofile=vid1&duration=1");
+    curl_easy_setopt(curl, CURLOPT_URL, "http://root:georgep@143.215.207.165/axis-cgi/mjpg/video.cgi?streamprofile=vid1&duration=1&fps=5");
  //curl_easy_setopt(curl, CURLOPT_URL, "http://root:georgep@143.215.207.165/axis-cgi/jpg/image.cgi?");
  
     /* Define our callback to get called when there's data to be written */ 
